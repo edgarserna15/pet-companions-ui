@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
         <h1>Pet Companion</h1>
-        <Home></Home>
+        <Home />
       </div>
     );
   }
