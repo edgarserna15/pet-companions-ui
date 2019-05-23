@@ -6,7 +6,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
   palette: {
-    type: 'dark',
+    // type: 'dark',
   },
 });
 
@@ -15,10 +15,8 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <Layout>
-          <Home></Home>
         </Layout>
       </MuiThemeProvider>
-
     );
   }
 }
